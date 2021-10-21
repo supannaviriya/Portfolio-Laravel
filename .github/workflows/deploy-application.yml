@@ -30,7 +30,7 @@ jobs:
 
       - name: Configure PHP 8.0
 
-        uses: shivammatur/setup-php@master
+        uses: shivammathur/setup-php@master
         
         with: 
 
