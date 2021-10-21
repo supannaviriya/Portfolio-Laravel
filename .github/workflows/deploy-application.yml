@@ -37,3 +37,7 @@ jobs:
           php-version: 8.0
 
           extension: mbstring, ctype, fileinfo, openssl, PDO, bcmath, json, tokenizer, xml
+
+      - name: Install Composer dependencies
+
+        run: composer install --no-dev --no-interaction --prefer-dist
